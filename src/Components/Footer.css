@@ -1,0 +1,24 @@
+.footer-container{
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social i{
+    font-size: 20px;
+}
+
+.social{
+    margin-top: 10px;
+    display: flex;
+    column-gap: 10px;
+}

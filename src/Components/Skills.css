@@ -1,0 +1,52 @@
+.skills-wrapper{
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blanchedalmond; */
+    background: linear-gradient(to top, rgb(255, 245, 229),white);
+}
+
+@media screen and (max-width: 800px) {
+    .skills-wrapper{
+        height: 00px;
+    }
+}
+.skills{
+    list-style-type: none;
+    text-align: left;
+}
+.skills-image {
+    height: 360px;
+    width: 500px;
+    background: url(
+        "https://cdn.dribbble.com/users/879147/screenshots/7906715/media/1b1d2ef35dab525ed63b8b5816813132.jpg?compress=1&resize=400x300"
+    );
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 40px;
+}
+.skills-wrapper ul{
+    display: flex;
+    flex-direction: column;
+    column-gap: 50px;
+}
+.skills-wrapper li{
+    margin-top: 10px;
+}
+text{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+@media screen and (max-width:900px) {
+    .skills-wrapper{
+        flex-direction: column;
+    }
+    .skills-image{
+        height: 180px;
+        width: 250px;
+        margin: 0px;
+        margin-top: 40px;
+    }
+}

@@ -1,0 +1,40 @@
+.hero-container{
+    height: 730px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    background-image: url(
+        https://c4.wallpaperflare.com/wallpaper/294/48/975/abstract-soft-gradient-purple-wallpaper-preview.jpg
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Name{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+.WhatIDo{
+    text-align: center;
+    color: blanchedalmond;
+    letter-spacing: 10px;
+    font-size: 15px;
+}
+.Button{
+    cursor: pointer;
+    margin-top: 40px;
+    color: white;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 2rem;
+}
+.Button:hover{
+    transition: 0.4s;
+    background: rgba(255, 255, 255, 0.205);
+}
+a{
+    text-decoration: none;
+}

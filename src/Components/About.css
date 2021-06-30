@@ -1,0 +1,45 @@
+.about-container{
+    height: 640px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    background: linear-gradient(to bottom, rgb(255, 243, 243),rgb(255,255,255));
+}
+
+@media screen and (max-width: 800px) {
+    .about-container{
+        height: 500px;
+    }
+}
+
+.text{
+    margin-left: 15px;
+    text-align: center;
+    line-height: 35px;
+}
+.image{
+    height: 360px;
+    width: 500px;
+    background: url(
+        "https://cdn.dribbble.com/users/1647667/screenshots/9849363/media/01890923f178ea5693c3816aa0bc65e2.jpg?compress=1&resize=400x300"
+    );
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.footer{
+    margin-top: 40px;
+    font-size: small;
+}
+
+@media screen and (max-width:900px) {
+
+    .about-container{
+        flex-direction: column;
+    }
+    .image{
+        height: 180px;
+        width: 250px;
+        margin-bottom: 40px;
+    }
+}

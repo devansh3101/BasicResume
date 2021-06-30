@@ -1,0 +1,45 @@
+.edu-wrapper{
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(237, 205, 255);
+}
+.edus{
+    list-style-type: none;
+    text-align: left;
+}
+.edu-image {
+    height: 360px;
+    width: 500px;
+    background: url(
+        "../Data/Edu.jpg"
+    );
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 40px;
+}
+.edu-wrapper ul{
+    display: flex;
+    flex-direction: column;
+    column-gap: 50px;
+}
+.edu-wrapper li{
+    margin-top: 10px;
+}
+.edu-wrapper text{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+@media screen and (max-width:900px) {
+    .edu-wrapper{
+        flex-direction: column;
+    }
+    .edu-image{
+        height: 180px;
+        width: 250px;
+        margin: 0px;
+        margin-top: 40px;
+    }
+}

@@ -1,0 +1,44 @@
+.certi-wrapper{
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.certi-wrapper .title{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.certi1-text .title{
+    margin-top: 30px;
+}
+
+.certi-text, .certi1-text{
+    width: 500px;
+    text-align: left;
+}
+
+.certiImage{
+    background-image: url("https://www.creativefabrica.com/wp-content/uploads/2020/08/18/Flat-Illustration-Winner-Graphics-5014468-1.jpg");
+    height: 360px;
+    width: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 40px;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .certiImage{
+        display: none;
+    }
+    .certi-wrapper{
+        height: 800px;
+        flex-direction: column;
+    }
+    .certi-text, .certi1-text{
+        width: 300px;
+    }
+}
