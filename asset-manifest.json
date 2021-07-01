@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/BasicResume/static/css/main.9e340579.chunk.css",
+    "main.js": "/BasicResume/static/js/main.5bafcd9e.chunk.js",
+    "main.js.map": "/BasicResume/static/js/main.5bafcd9e.chunk.js.map",
+    "runtime-main.js": "/BasicResume/static/js/runtime-main.3f197975.js",
+    "runtime-main.js.map": "/BasicResume/static/js/runtime-main.3f197975.js.map",
+    "static/js/2.6d1dc3f6.chunk.js": "/BasicResume/static/js/2.6d1dc3f6.chunk.js",
+    "static/js/2.6d1dc3f6.chunk.js.map": "/BasicResume/static/js/2.6d1dc3f6.chunk.js.map",
+    "static/js/3.57b65c3b.chunk.js": "/BasicResume/static/js/3.57b65c3b.chunk.js",
+    "static/js/3.57b65c3b.chunk.js.map": "/BasicResume/static/js/3.57b65c3b.chunk.js.map",
+    "index.html": "/BasicResume/index.html",
+    "static/css/main.9e340579.chunk.css.map": "/BasicResume/static/css/main.9e340579.chunk.css.map",
+    "static/js/2.6d1dc3f6.chunk.js.LICENSE.txt": "/BasicResume/static/js/2.6d1dc3f6.chunk.js.LICENSE.txt",
+    "static/media/Education.css": "/BasicResume/static/media/Edu.ea9cf25d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3f197975.js",
+    "static/js/2.6d1dc3f6.chunk.js",
+    "static/css/main.9e340579.chunk.css",
+    "static/js/main.5bafcd9e.chunk.js"
+  ]
+}
